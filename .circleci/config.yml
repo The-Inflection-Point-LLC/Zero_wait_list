@@ -30,7 +30,7 @@ jobs:
 
       - aws-s3/sync:
           profile_name: default
-          from: out
+          from: .next
           to: s3://zerowaitlist
 
       # - run:
