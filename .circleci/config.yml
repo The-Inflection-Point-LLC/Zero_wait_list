@@ -1,0 +1,54 @@
+version: 2.1
+executors:
+  default:
+    docker:
+      - image: cimg/node:22.7.0
+
+orbs:
+  aws-cli: circleci/aws-cli@5.1
+  aws-s3: circleci/aws-s3@4.0
+
+jobs:
+  build:
+    executor: default
+    steps:
+      - checkout
+
+      - run:
+          name: Install dependencies
+          command: npm install
+
+      - run:
+          name: Build Next.js app
+          command: npm run build
+
+      - aws-cli/setup:
+          profile_name: default
+          aws_access_key_id: AWS_ACCESS_KEY_ID
+          aws_secret_access_key: AWS_SECRET_ACCESS_KEY
+          region: us-east-2
+
+      - aws-s3/sync:
+          profile_name: default
+          from: out
+          to: s3://zerowaitlist
+
+      # - run:
+      #     name: Upload build to S3
+      #     command: |
+      #       aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+      #       aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+      #       aws s3 sync ./out s3://zerowaitlist
+      - run:
+          name: Invalidate CloudFront distribution
+          command: |
+            aws configure set aws_access_key_id AWS_ACCESS_KEY_ID
+            aws configure set aws_secret_access_key AWS_SECRET_ACCESS_KEY
+            aws cloudfront create-invalidation --distribution-id E3M3EOR527518Y --paths /*
+
+workflows:
+  build-workflow:
+    jobs:
+      - build:
+          context:
+            - AWS
