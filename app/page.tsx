@@ -128,16 +128,16 @@ export default function Home() {
                 }}   */                
                 pyramid={{
                     title1: `Tier 1 – Self-help - free or $\n`,
-                    text1: `Enough for some–A start for many. Self-organized peer-to-peer learning`,
+                    text1: `Enough for some – a start for many. Self-organized a-two-peer learning`,
                     desc1: 'Our self-help tier provides digital tools, worksheets, and assessments at no cost for a month or two.\n\nIf you want, you can self-organize with others for peer-to-peer learning.\n\nIn the future, Tier 1 will become more personalized to you , and you will be able to measure/monitor your growth. But not yet',
                     
                     title2: `Tier 2 – Skillshops - $`,
-                    text2: `Practical workshops–topics as needed`,
+                    text2: `Practical workshops – topics as needed`,
                     desc2: 'Skillshops are interactive and focused on practical actions.\nEach Skillshop is designed around a particular need or topic.\n\nSkillshops consist of:\n\tOne 75-minute in person meeting\n\tTwo 30-minute online meetings\n\tA personalized report\n\tGroup chats between meetings\n\n12 - 24 people per Skillshop',
 
                     title3: `Tier 3 – Small groups - $$`,
-                    text3: `The rubber meets the road–Expect change`,
-                    desc3: 'Small groups can be very cost-effective.\nWe form who is in which group intentionally.\nEach participant has a personalized growth plan.\n\nGroups of 4-7 or 8-10 people.',
+                    text3: `The rubber meets the road – Expect change`,
+                    desc3: 'Small groups can be very cost-effective.\nWe choose who is in which group intentionally.\nTier 1 needs a period after "But not yet"\nEach participant has a personalized growth plan.\n\nGroups of 4-7 or 8-10 people.',
 
                     title4: `Tier 4 – One-on-One - $$$`,
                     text4: `Answer the 5 questions`,
@@ -157,7 +157,7 @@ export default function Home() {
 
             <PartnerWithUs
                 title={`Partner <with us>`}
-                desc={`Zero Wait List maintains an active referral network\nPlease reach out to talk with us.`}
+                desc={`Zero Wait List maintains an active referral network.\nPlease reach out if you are interested.`}
                 title1={`We have the right people for:`}
                 //text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations (esp. meds)</t>\n<t><m>3)</m> Diagnosis-based treatments (e.g. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4)</m> School evaluations, custody, parental alienation</t>\n<t><m>5)</m> Interpersonal violence</t>`}
                 text1 = {`<t><m>1.</m>One-on-one therapy</t>\n<t><m>2.</m>Psychiatric evaluations especially meds</t>\n<t><m>3.</m>Diagnosis-based treatments (inc. anxiety, depression, eating disorders, substance abuse, trauma, etc.)</t>\n<t><m>4.</m>School/custody evaluations, parental alienation</t>\n<t><m>5.</m>Interpersonal violence</t>`}
