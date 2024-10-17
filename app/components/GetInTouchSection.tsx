@@ -104,7 +104,7 @@ const GetInTouchSection = (props: GetInTouchSectionProps) => {
       };
 
       const response = await fetch(
-        "https://api.menmoneymeaning.com/api/EmailSender/contact/newContact",
+        "https://api.zerowaitlist.com/api/EmailSender/contact/newContact",
         {
           method: "POST",
           headers: {
