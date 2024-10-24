@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import "video-react/dist/video-react.css";
 import { cn } from "../lib/utils";
 import { Toaster } from "@/components/ui/toaster";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const fontSans = FontSans({
     subsets: ["latin"],
@@ -21,16 +22,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en">
             <head>
                 <link rel="icon" href="/favicon.png" sizes="any" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPT0BW4WMG"></script>
-                <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-ZPT0BW4WMG');
-                </script>
             </head>
             <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
+                <GoogleAnalytics gaId="G-ZPT0BW4WMG"/>
                 {children}
                 <Toaster />
             </body>
