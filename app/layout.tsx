@@ -11,9 +11,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-    title: "MitchDickey",
+    title: "Zero Wait List",
     description:
-        "relationships are fundamental to human existence. This is for everybody who has a relationship that could be improved. Tiered services so that you can find the right level of engagement or participation for you. Based on rigorous science across many disciplines. workshops, coaching, mini courses. high quality. Reasonable cost, accessible to everyone.",
+        "Offering quick, high-quality personal/family evaluations and accessible psychoeducational workshops. Mitch Dickey partners with doctors to provide efficient, targeted care that improves emotional, mental and relationship health.  Help helps you define what you need and ensures that you get it — all while maintaining affordability and accessibility for a wide range of people and issues/concerns.  He is alongside you every step of the way.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
