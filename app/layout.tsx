@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <link rel="icon" href="/favicon.png" sizes="any" />
             </head>
             <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
-                <GoogleAnalytics gaId="G-ZPT0BW4WMG"/>
+                <GoogleAnalytics gaId="G-YZ4HHJ6GN6"/>
                 {children}
                 <Toaster />
             </body>
