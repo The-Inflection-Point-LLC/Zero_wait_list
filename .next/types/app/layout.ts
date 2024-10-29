@@ -1,4 +1,4 @@
-// File: /Users/dnairns/repositories/Zero_wait_list/app/layout.tsx
+// File: /Users/usman/Documents/GitHub/Zero_wait_list/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

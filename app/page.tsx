@@ -137,11 +137,11 @@ export default function Home() {
 
                     title3: `Tier 3 – Small groups - $$`,
                     text3: `The rubber meets the road – Expect change`,
-                    desc3: 'Small groups can be very cost-effective.\nWe choose who is in which group intentionally.\nTier 1 needs a period after "But not yet"\nEach participant has a personalized growth plan.\n\nGroups of 4-7 or 8-10 people.',
+                    desc3: 'Small groups can be very cost-effective.\nWe choose who is in which group intentionally.\nEach participant has a personalized growth plan.\n\nGroups of 4-7 or 8-10 people.',
 
                     title4: `Tier 4 – One-on-One - $$$`,
                     text4: `Answer the 5 questions`,
-                    desc4: 'We help you answer 5 questions:\n\t1. Do we have a problem – what is it?\n\t2. Do we need help – what kind?\n\t3. Where do I find it?\n\t4. What does it cost?\n\t5. Will it do any good?\n\nQuicker Option\nEvaluation and referral.\n\nDeeper Option\nLonger meetings, clear action plan with options.\nWe follow up later to make sure the action plan is working\n\nOptional Add-on\nIndividually-curated resources and personalized learning agenda',
+                    desc4: 'We help you answer 5 questions:\n\t1. Do we have a problem – what is it?\n\t2. Do we need help – what kind?\n\t3. Where do I find it?\n\t4. What does it cost?\n\t5. Will it do any good?\n\nQuicker Option\nEvaluation and referral.\n\nDeeper Option\nLonger meetings, clear action plan with options.\nWe follow up later to make sure the action plan is working',
                 }}
             /> }    
  

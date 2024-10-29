@@ -186,7 +186,7 @@ export const DEMO_WHAT_MAKES_DIFFERENT = [
         id: 6,
         title: "Anger/blame -> apology/forgiveness",
         color: "#048404",
-        desc: `If there is anyone sequence between two people, it’s this one\n \n<t>1. P1 doesn’t get what they want, expresses it, but doesn’t feel heard.</t>\n<t>2. P2 doesn’t like the way P1 expresses themselves, so doesn’t respond.</t>\n<t>3. P1 doesn’t like that, so they ask again/push a little harder.</t>\n<t>4. P2 doesn’t like that, so they put up a wall.</t>\n\nP1 and P2 are both angry and start blaming each other (whether silently inside their own heads, with other people, or directly to each other.\n\nNot great – not uncommon. And this is an entirely solvable problem</t>\n\nFormat:\n<t>Tier 1 – Self - help</t>\n<t>Tier 2 – Skillshop</t>\n<t>Tier 3 – Small groups</t>\n<t>Tier 4 – One - on - one</t>\n`,
+        desc: `If there is anyone sequence between two people, it’s this one\n \n<t>1. P1 doesn’t get what they want, expresses it, but doesn’t feel heard.</t>\n<t>2. P2 doesn’t like the way P1 expresses themselves, so doesn’t respond.</t>\n<t>3. P1 doesn’t like that, so they ask again/push a little harder.</t>\n<t>4. P2 doesn’t like that, so they put up a wall.</t>\n\nP1 and P2 are both angry and start blaming each other (whether silently inside their own heads, with other people, or directly to each other.\n\nNot great – not uncommon. And this is an entirely solvable problem`,
         img: [N6],
         /*moreInfo: {
             title: "",
@@ -367,7 +367,7 @@ export const DUMMY_WHAT_WE_DO_DATA = [
         popup: {
             text: "Learn more",
             type: "text",
-            link: `Not everyone needs one-on-one counseling or therapy.\nIf you catch it early enough,\nmaybe you just need a little nudge.\n\nTopics can include: the family I grew up in, anger->forgiveness, career direction, acquiring power and influence, etc.\nSee Selected life skills section below.\n\nFormats\n<t>\t Tier 4 – individual meetings</t>\n<t>\t Tier 3 – small groups of people with similar challenges</t>\n<t>\t Tier 2 – Skillshops of three meetings</t>\n<t>\t Tier 1 – Self-help tools and your own pace</t>`,
+            link: `Not everyone needs one-on-one counseling or therapy.\nmaybe you just need a little nudge.\n\nTopics can include: the family I grew up in, anger->forgiveness, career direction, acquiring power and influence, etc.\nSee Selected life skills section below.\n\nFormats\n<t>\t Tier 4 – individual meetings</t>\n<t>\t Tier 3 – small groups of people with similar challenges</t>\n<t>\t Tier 2 – Skillshops of three meetings</t>\n<t>\t Tier 1 – Self-help tools and your own pace</t>`,
         },
         img: whatwedo3,
     },    
